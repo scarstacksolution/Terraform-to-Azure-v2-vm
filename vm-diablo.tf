@@ -81,7 +81,7 @@ resource "azurerm_network_interface_security_group_association" "example" {
 
 # Create virtual machine
 resource "azurerm_windows_virtual_machine" "main" {
-  name                  = "vmtrf-pr6xd7g"
+  name                  = "vm1-dradlo-prd"
   admin_username        = "useradmin1"
   admin_password        = "Password123$"
   location              = azurerm_resource_group.rg.location
